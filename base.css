@@ -1,0 +1,400 @@
+
+html {
+	font-size:62.5%;/* 10px */
+}
+body {
+	background:#fff;
+	color:#333333;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 16px; /* 16px */
+	font-size: 1.6rem; /* 16px */
+	line-height:1.5;
+}
+	body{
+		min-width:980px;
+	}
+	body a {
+	color: #333333;
+}
+	body a:hover {
+ -webkit-transition:.4s ease;
+ -moz-transition:.4s ease;
+ -o-transition:.4s ease;
+ transition:.4s ease;
+}
+.wrap {
+	overflow: hidden;
+}
+.atten {
+	color: #f04262;
+}
+.spPink {
+	color: #f38094;
+}
+.spLarge {
+	font-size: 2.0rem;
+	line-height: 1;
+}
+.break {
+	display: inline;
+}
+.sp_break {
+	display: none;
+}
+.pc_break {
+	display: block;
+}
+#map {
+	width: 100%;
+	height: 600px;
+}
+
+
+/*#########################################################
+
+レイアウト
+
+#########################################################*/
+
+#content {
+	width: 100%;
+	margin: 0 auto;
+	padding: 16px 0 0;
+}
+
+
+
+.sp-horizontal .sp-arrows {
+	width: 960px;
+	left: 50%;
+	margin-left: -480px;
+}
+.sp-horizontal .sp-previous-arrow {
+	left: -60px;
+}
+.sp-horizontal .sp-next-arrow {
+	right: -60px;
+}
+.sp-buttons {
+	margin: -50px 0 0;
+}
+.sp-selected-button {
+	background-color: #fff;
+}
+.sp-button {
+	border: 2px solid #fff;
+}
+.sp-arrow {
+	width: 10px;
+}
+
+/* #entry */
+#entry .cont_wrapper {
+	padding: 60px 0;
+}
+#entry .cont_inner {
+	width: 958px;
+	margin: 0 auto;
+}
+#entry .lead {
+	height: 33px;
+	margin: 0 0 30px;
+	background: url(../images/img_contact_01.png) center top no-repeat;
+	text-indent: -9999px;
+}
+#entry .btn {
+	margin: 0 0 30px;
+	text-align: center;
+}
+.btn a {
+ width: 600px;
+ display: block;
+	margin: 0 auto;
+ -webkit-transition:.4s ease;
+ -moz-transition:.4s ease;
+ -o-transition:.4s ease;
+ transition:.4s ease;
+}
+
+#entry .tel {
+	width: 420px;
+	height: 47px;
+	margin: 0 auto 30px;
+	background: url(../images/img_contact_02.png) center top no-repeat;
+	text-indent: -9999px;
+}
+#entry .remark {
+	text-align: center;
+}
+
+
+
+footer {
+	background-color: #7ac1c8;
+	text-align: center;
+	padding: 50px 0 80px;
+	color: #fff;
+}
+footer ul {
+	text-align: center;
+}
+footer ul li {
+	display: inline;
+}
+footer ul li:after {
+	content: "/";
+	padding: 0 10px;
+}
+footer ul li:last-child:after {
+	content: none;
+	padding: 0 0 0 10px;
+}
+footer a {
+	color: #fff;
+ -webkit-transition:.4s ease;
+ -moz-transition:.4s ease;
+ -o-transition:.4s ease;
+ transition:.4s ease;
+	text-decoration: none;
+}
+footer .description {
+	margin: 40px 0 0;
+	font-size: 1.4rem;
+}
+footer .tel {
+	margin: 10px 0 0;
+	font-size: 2.4rem;
+	font-weight: bold;
+}
+footer #copyright {
+	margin: 10px 0 0;
+	font-size: 1.2rem;
+}
+
+/* バナー */
+
+.bnr {
+ width: 958px;
+	margin: 0 auto;
+	padding: 80px 0;
+}
+.bnr a {
+ width: 958px;
+ height: 221px;
+ display: block;
+	margin: 0 auto;
+ -webkit-transition:.4s ease;
+ -moz-transition:.4s ease;
+ -o-transition:.4s ease;
+ transition:.4s ease;
+}
+
+
+.top_position {
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	z-index: 100;
+}
+.top_position a {
+	display: block;
+	width: 58px;
+	height: 58px;
+ -webkit-transition:.4s ease;
+ -moz-transition:.4s ease;
+ -o-transition:.4s ease;
+ transition:.4s ease;
+}
+
+
+/* MEDIA QUERIE
+============================================= */
+@media screen and (max-width: 768px) {
+
+	body{
+		min-width:100%;
+		min-width:initial;
+	}
+	body {
+		font-size: 15px; /* 14px */
+		font-size: 1.5rem; /* 14px */
+	}
+	.sp-horizontal .sp-arrows {
+		width: 100%;
+		display: none;
+	}
+	.sp-buttons {
+		margin: 10px 0 0;
+	}
+	.sp-selected-button {
+		background-color: #78c5ca;
+	}
+	.sp-button {
+		border: 2px solid #78c5ca;
+	}
+	.sp-arrow {
+		width: 10px;
+	}
+	.top_position {
+		bottom: 10px;
+		right: 10px;
+	}
+	.top_position a {
+		width: 40px;
+		height: 40px;
+	}
+	.top_position a:hover {
+		opacity: 1;
+	}
+	.top_position a img {
+		width: 100%;
+		height: auto;
+	}
+	.sp_break {
+		display: block;
+	}
+	.pc_break {
+		display: none;
+	}
+	#map {
+		width: 100%;
+		height: 300px;
+	}
+
+
+	/* #entry */
+	#entry .cont_wrapper {
+		padding: 30px 0;
+	}
+	#entry .cont_inner {
+		width: 100%;
+	}
+	#entry .lead {
+		width: auto;
+		height: 15px;
+		margin: 0 0 20px;
+		background-size: contain;
+	}
+	#entry .btn {
+		width: 100%;
+		padding: 0 15px;
+		box-sizing: border-box;
+	}
+	.btn a {
+		width: 100%;
+	}
+	#entry .btn {
+		margin: 0 0 20px;
+	}
+	#entry .btn a img {
+		width: 100%;
+		height: auto;
+	}
+	#entry .tel {
+		width: 100%;
+		margin: 0 0 15px;
+		padding: 0 15px;
+		box-sizing: border-box;
+		height: 30px;
+		background-size: contain;
+		text-indent: 0;
+	}
+	#entry .tel a {
+		display: block;
+		text-indent: -9999px;
+	}
+	#entry .remark {
+		text-align: left;
+		padding: 0 15px 0 30px;
+		text-indent: -12px;
+		font-size: 1.2rem;
+	}
+
+	footer {
+		padding: 0 0 50px;
+	}
+	footer ul {
+	
+	}
+	footer ul li {
+		display: block;
+		padding: 10px 30px;
+		text-align: left;
+		background: url(../images/arrow01.png) 15px 50% no-repeat;
+		border-bottom: 1px solid #63a2a8;
+		background-size: 10px 14px;
+	}
+	footer .description {
+		margin: 40px 10px 0;
+	}
+	footer .tel {
+		margin: 10px 0 0;
+	}
+	footer ul li:after {
+		content: none;
+		padding: 0;
+	}
+	.bnr {
+		width: 100%;
+		padding: 30px 15px 40px;
+		box-sizing : border-box;
+	}
+	.bnr a {
+		width: 100%;
+		height: auto;
+	}
+	.bnr img {
+		width: 100%;
+		height: auto;
+	}
+	.break {
+		display: block;
+	}
+}
+
+
+/* メインカラム */
+#main {
+  background-z: white;
+}
+
+#container {
+	width: 100%;
+	text-align: left;
+}
+
+.mb10  { margin-bottom:  10px !important; }
+.mb20  { margin-bottom:  20px !important; }
+.mb30  { margin-bottom:  30px !important; }
+.mb40  { margin-bottom:  40px !important; }
+.mb50  { margin-bottom:  50px !important; }
+.mb60  { margin-bottom:  60px !important; }
+.mb70  { margin-bottom:  70px !important; }
+.mb80  { margin-bottom:  80px !important; }
+.mb90  { margin-bottom:  90px !important; }
+.mb100 { margin-bottom: 100px !important; }
+
+
+/* # clearfix
+---------------------------------------------------------------------------- */
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+ 
+.clearfix {
+	display: inline-table;
+	min-height: 1%;
+}
+ 
+/* Hides from IE-mac */
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/* End hide from IE-mac */
